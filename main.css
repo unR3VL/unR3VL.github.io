@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Turret+Road:400,700&display=swap');
+
+*{
+    font-family: 'Turret Road', cursive;
+}
+
+body{
+    background-color: rgba(0,0,0,.9);
+}
+
+.navbar .navbar-expand-lg .navbar-dark{
+    background-color: rgba(0,0,0,.9);
+}
+
+.navbar .navbar-brand{
+    color: #0f56f0;
+}
+
+.navbar .collapse .nav-link{
+    color: #0f56f0;
+}
+
+.collapse{
+    justify-content: flex-end;
+}
+
+
+h1{
+    font-size: 400px;    
+}
+
+h1::after{
+    content: '';
+    display: inline-block;
+    height: 280px;
+    width: 10px;
+    animation-name: cursor;
+    animation-duration: 500ms;
+    animation-iteration-count: 20;
+    animation-play-state: running;
+
+}
+
+@keyframes cursor{
+    0%{
+        background-color: #0f56f0;
+    }
+
+    100%{
+        background-color: rgba(0,0,0,0);
+    }
+}
+
+.btn{
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+#mc_embed_signup {
+    clear:left; 
+    font:14px Helvetica,Arial,sans-serif;
+}
